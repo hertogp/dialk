@@ -1,0 +1,11 @@
+{
+  "vim_script_nr": -1,
+  "name": "dialk",
+  "version": "0.1",
+  "author": "hertogp <git.hertogp@gmail.com>",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/hertogp/vim-dialk.git"
+  },
+  "description": "Dial K for help - opens new window/tab for keywordprg's help output"
+}

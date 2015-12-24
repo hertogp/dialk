@@ -1,0 +1,21 @@
+# ignore my personal tmp notes
+_*
+
+# ignore autogen documentation
+doc/tags
+
+# ignore directories
+cache/
+tmp/
+scr/
+.git/
+
+# ignore backup/temp files
+*~
+**/*~
+
+# ignore swap files
+**/.*.swp
+
+# ignore bytecode files
+*.pyc
