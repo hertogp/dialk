@@ -75,6 +75,7 @@ endfunction
 
 function! dialk#get_help(helpcmd, topic)
   " TODO:
+  " for VIM buffers, use internal help?
   " create hooks for post processing via user defined function
   return system(printf(g:dialk_shellfmt, a:helpcmd, shellescape(a:topic)))
 endfunction
