@@ -47,8 +47,9 @@ endfunction
 
 " Main {{{1
 " show_help {{{2
-" Notes:
-" o a vim file has help as its keywordprg and should NOT be shelled out
+" TODO Notes:
+" o a vim file has :help as its keywordprg and should NOT be shelled out
+" o a c files has :Man as its keywordprg and should NOT be shelled out
 " o get_new_window should cater for grouping tabs by keywordprg
 "
 function! dialk#help_win(topic)
@@ -95,7 +96,7 @@ function! dialk#show_help(topic)
     " setlocal buftype=nofile bufhidden=wipe noswapfile nobuflisted nomodified
     setlocal buftype=nofile bufhidden=wipe noswapfile nomodified
     " set buffer name
-    exec "file [HLP] " . l:dialkprg ."(" . a:topic . ")"
+    " exec "file [HLP] " . l:dialkprg ."(" . a:topic . ")"
   endtry
 endfunction
 
